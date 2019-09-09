@@ -1,0 +1,22 @@
+<%- if current_user %>
+	<div class="navigation-bar">
+		<%= link_to destroy_user_session_path do %>
+			<span class='devise-link'>Sign Out</span>
+		<%- end %>
+		
+			<span class='devise-link'>Settings</span>
+		
+	</div>
+<%- else %>
+	<div class="navigation-bar">
+		<%= link_to new_user_session_path do %>
+			<span class='devise-link'>Sign In</span>
+		<%- end %>
+		<%= link_to new_user_registration_path do %>
+			<span class='devise-link'>Sign Up</span>
+		<%- end %>
+	</div>
+<%- end %>
+
+<div id="app"></div>
+ 

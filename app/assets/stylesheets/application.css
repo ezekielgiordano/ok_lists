@@ -12,6 +12,122 @@
  *
  *= require_tree .
  *= require_self
- *= require foundation_and_overrides
 
  */
+
+ * { font-family: Arial, sans-serif; }
+
+a, a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+li { list-style-type: none }
+
+button {
+	cursor: pointer;
+	user-select: none;
+}
+
+textarea { width: 124px; }
+
+.check-box { margin: 5px 0px 5px 170px; }
+
+.navigation-bar {
+	padding: 10px 0px 10px 0px;
+	margin: 7.5px 0px 7.5px 0px;
+	display: inline-block;
+}
+
+.devise-link, .admin-link, .account-link {
+	border: 1px solid #000000;
+	padding: 10px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.selected-link {
+	background-color: #D3D3D3;
+}
+
+.display-box {
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 7.5px 0px 7.5px 0px;
+	display: inline-block;
+}
+
+.error-div {
+	font-style: italic;
+	font-size: small;
+	opacity: 0.5;
+	margin-bottom: 10px;
+}
+
+.delete-x {
+	user-select: none;
+	border: 1px solid #000000;
+	margin-right: 25px;
+	cursor: pointer;
+}
+
+.dropdown {
+	width: 130px;
+	cursor: pointer;
+}
+
+.army-tile { margin: 5px 0px 5px 0px; }
+
+.unit-tile { margin: 5px 0px 5px 0px; }
+
+.button-group { margin-top: 10px; }
+
+.army-name-field { margin: 5px 0px 5px 28.5px; }
+
+.army-name-dropdown { margin: 5px 0px 5px 34px; }
+
+.army-alignment-dropdown { margin: 5px 0px 5px 0px; }
+
+.unit-name-field { margin: 5px 0px 5px 50.5px; }
+
+.unit-name-dropdown { margin: 5px 0px 5px 65px; }
+
+.unit-size-field { margin: 5px 0px 5px 29.5px; }
+
+.unit-strength-field { margin: 5px 0px 5px 0px; }
+
+.unit-speed-field { margin: 5px 0px 5px 47px; }
+
+.unit-melee-field { margin: 5px 0px 5px 50px; }
+
+.unit-ranged-field { margin: 5px 0px 5px 37.5px; }
+
+.unit-defense-field { margin: 5px 0px 5px 34px; }
+
+.unit-attacks-field { margin: 5px 0px 5px 41px; }
+
+.unit-points-field { margin: 5px 0px 5px 49px; }
+
+.unit-special-field { margin: 5px 0px 5px 41px; }
+
+.unit-army-dropdown { margin: 5px 0px 5px 57px; }
+
+.username-field { margin: 5px 0px 5px 90.5px; }
+
+.email-field { margin: 5px 0px 5px 61px; }
+
+.email-confirmation-field { margin: 5px 0px 5px 0px; }
+
+.password-field { margin: 5px 0px 5px 94px; }
+
+.password-confirmation-field { margin: 5px 0px 5px 33px; }
+
+.current-password-field { margin: 5px 0px 5px 0px; }
+
+.new-password-field { margin: 5px 0px 5px 0px; }
+
+.new-password-confirmation-field { margin: 5px 0px 5px 0px; }
+
+
+
+
